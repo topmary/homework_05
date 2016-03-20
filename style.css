@@ -149,26 +149,26 @@ body .header .wrapper-header h2 {
 }
 /* * * * * * FLAG * * * */
 
-/* * * * * * PENCIL * * * */
-.pencil{
+/* * * * * * ROCKET * * * */
+.rocket{
     float: right;
     width: 220px;              /*****/
     height: 390px;              /*****/
     margin-left: 48px;
     margin-top: 53px;
 }
-.image-pencil {
+.image-rocket {
     background-image: url(img/spline.png);
     background-position: 3px -160px;
     width: 154px;
     height:142px;           /* --------*/
     margin-left: 58px;
 }
-.text-pencil {
+.text-rocket {
     margin-top: 42px;
 }
 
-.text-pencil h3{
+.text-rocket h3{
     display: inline-block;
     font-size: 25px;
     width: 193px;
@@ -176,13 +176,13 @@ body .header .wrapper-header h2 {
     margin-bottom: 3px;
     margin-left: 31px;
 }
-.text-pencil p{
+.text-rocket p{
     width: 203px;
     text-align: center !important;
     margin-top: 8px;
     margin-left: 25px;
 }
-/* * * * * * PENCIL * * * */
+/* * * * * * ROCKET * * * */
 
 /* * * * * * COGWHEEL * * * */
 .cogwheel {
@@ -221,8 +221,8 @@ body .header .wrapper-header h2 {
 
 /* * * * * * COGWHEEL * * * */
 
-/* * * * * * DESIGN--ROCKET * * * */
-.rocket{
+/* * * * * * DESIGN * * * */
+.design{
     float: right;
     width: 220px;              /*****/
     height: 390px;              /*****/
@@ -230,7 +230,7 @@ body .header .wrapper-header h2 {
     margin-top: 50px;
 }
 
-.image-rocket {
+.image-design {
     background-image: url(img/spline.png);
     background-position: -136px 0;
     width: 170px;           /* --------*/
@@ -238,11 +238,11 @@ body .header .wrapper-header h2 {
     margin-left: 53px;
 }
 
-.text-rocket {
+.text-design {
     margin-top: 43px;
     margin-left: 32px;
 }
-.text-rocket h3 {
+.text-design h3 {
     display: inline-block;
     font-size: 25px;
     margin-bottom: 3px;
@@ -250,9 +250,9 @@ body .header .wrapper-header h2 {
     margin-left: 52px;
 }
 
-.text-rocket p{
+.text-design p{
     width: 203px;
     text-align: center !important;
     margin-top: 9px;
 }
-/* * * * * * DESIGN - ROCKET * * * */
+/* * * * * * DESIGN * * * */
