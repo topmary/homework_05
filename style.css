@@ -66,14 +66,13 @@ body .header .wrapper-header h2 {
 
 }
 
-/* * * * * * * *BLOCK aquamarine* * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
 
 .main .block-aquamarine {
     background-color:#17C2A4;
     padding-top: 1px;
     height: 745px;
 }
-
 .main .block-aquamarine .wrapper-aquamarine {
     width: 1150px;
     margin: 0 auto;
@@ -84,7 +83,6 @@ body .header .wrapper-header h2 {
     margin-left: 104px;
     margin-top: -1px;
 }
-
 .text-in-aquamarine h2{
     display: inline-block;
     font-size: 39px;
@@ -110,25 +108,27 @@ body .header .wrapper-header h2 {
     padding-left: 216px;
     margin-top: 8px;
     letter-spacing: 0.4px;
-
 }
 .clearfix {
     display: table;
     content: "";
     clear: both;
 }
-/* * * * * * FLAG * * * */
+.size-img{
+    width: 220px;
+    height: 390px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * FLAG * * * */
 .flag{
     display: inline-block;
-    width: 220px;                /*****/
-    height: 390px;               /*****/
     margin-top: 33px;
 }
 
 .image-flag {
     background-image: url(img/spline.png);
-    width: 170px;           /* --------*/
-    height:142px;           /* --------*/
+    width: 170px;
+    height:142px;
     margin-left: 28px;
     margin-top: 19px;
 }
@@ -149,11 +149,9 @@ body .header .wrapper-header h2 {
 }
 /* * * * * * FLAG * * * */
 
-/* * * * * * ROCKET * * * */
+/* * * * * * * * * * * * * * * * * * * *  *ROCKET * * * */
 .rocket{
     float: right;
-    width: 220px;              /*****/
-    height: 390px;              /*****/
     margin-left: 48px;
     margin-top: 53px;
 }
@@ -161,13 +159,12 @@ body .header .wrapper-header h2 {
     background-image: url(img/spline.png);
     background-position: 3px -160px;
     width: 154px;
-    height:142px;           /* --------*/
+    height:142px;
     margin-left: 58px;
 }
 .text-rocket {
     margin-top: 42px;
 }
-
 .text-rocket h3{
     display: inline-block;
     font-size: 25px;
@@ -184,23 +181,19 @@ body .header .wrapper-header h2 {
 }
 /* * * * * * ROCKET * * * */
 
-/* * * * * * COGWHEEL * * * */
+/* * * * * * * * * * * * * * * * * * * COGWHEEL * * * */
 .cogwheel {
     float: right;
-    width: 220px;              /*****/
-    height: 390px;              /*****/
     margin-left: 73px;
     margin-top: 49px;
 }
-
 .image-cogwheel{
     background-image: url(img/spline.png);
     background-position: -149px -159px;
-    width: 170px;           /* --------*/
-    height:142px;           /* --------*/
+    width: 170px;
+    height:142px;
     margin-left: 25px;
 }
-
 .text-cogwheel{
     margin-top: 46px;
 }
@@ -218,26 +211,21 @@ body .header .wrapper-header h2 {
     margin-left: 10px;
     margin-top: 11px;
 }
-
 /* * * * * * COGWHEEL * * * */
 
-/* * * * * * DESIGN * * * */
+/* * * * * * * * * * * * * * * * * * * DESIGN * * * */
 .design{
     float: right;
-    width: 220px;              /*****/
-    height: 390px;              /*****/
     margin-left: 30px;
     margin-top: 50px;
 }
-
 .image-design {
     background-image: url(img/spline.png);
     background-position: -136px 0;
-    width: 170px;           /* --------*/
-    height:142px;           /* --------*/
+    width: 170px;
+    height:142px;
     margin-left: 53px;
 }
-
 .text-design {
     margin-top: 43px;
     margin-left: 32px;
@@ -249,10 +237,10 @@ body .header .wrapper-header h2 {
     margin-top: 3px;
     margin-left: 52px;
 }
-
 .text-design p{
     width: 203px;
     text-align: center !important;
     margin-top: 9px;
 }
 /* * * * * * DESIGN * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
