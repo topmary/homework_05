@@ -244,3 +244,375 @@ body .header .wrapper-header h2 {
 }
 /* * * * * * DESIGN * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK lightblue* * * * * * * * */
+.main .block-lightblue {
+    background-color: #E7F1F8;
+    height: 913px;
+    padding-top: 1px;                     /* W h y ???? */
+}
+.main .block-lightblue .wrapper-lightblue {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+
+.main .block-lightblue .wrapper-lightblue .text-in-lightblue{
+    width: 754px;
+    margin: 0 auto;
+}
+
+.main .block-lightblue .wrapper-lightblue .text-in-lightblue h2 {
+    font-size: 40px;
+    margin-left: 128px;
+    letter-spacing: 4px;
+    margin-bottom: -1px;
+    color: #3C4761;
+}
+.line2{
+    width: 87px;
+    height: 4px;
+    border:none;
+    background: #C8D9E5;
+    margin-left: 380px;
+}
+.main .block-lightblue .wrapper-lightblue .text-in-lightblue p{
+    font-size: 18px;
+    margin-left: 103px;
+    letter-spacing: 0.3px;
+    color: #3C4761;
+}
+.beautiful-team {
+    width: 1180px;
+    padding-top: 58px;
+    margin-left: 103px;
+}
+
+
+/* * * * * * * * * * * * OБЩЕЕ * * * * * * * */
+.anne-section , .kate-section , .olivia-section {
+    float: left;
+    display: inline-block;
+    width: 222px;
+    height: 500px;
+}
+.anne-section .anne-photo , .kate-section .kate-photo , .olivia-section .olivia-photo , .ashley-section .ashley-photo{
+    width: 202px;
+    height: 202px;
+}
+.anne-section .anne-photo img , .kate-section .kate-photo img , .olivia-section .olivia-photo img , .ashley-section .ashley-photo img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.anne-text h3 , .kate-text h3 , .olivia-text h3 , .ashley-text h3{
+    font-size: 25px;
+    color: #3C4761;
+}
+.anne-text h4 , .kate-text h4 , .olivia-text h4 , .ashley-text h4{
+    color: #30BAE7;
+    font-weight: normal;
+}
+
+/* * * * * * * * * * * * OБЩЕЕ * * * * * * * */
+
+/* * * * * * * * * * * * ANNE HATHAWAY * * * * * * * */
+.anne-text h3 {
+    padding-top: 4px;
+    padding-left: 3px;
+    margin-bottom: 0;
+}
+
+.anne-text h4 {
+    margin-top: -1px;
+    margin-left: 28px;
+}
+.anne-text p {
+    margin-top: -3px;
+    text-align: center;
+    width: 200px;
+}
+.anne-social {
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.anne-social ul{
+    margin: 0;
+    padding: 0;
+}
+.anne-social .anne-fb , .anne-social .anne-tw , .anne-social .anne-in , .anne-social .anne-sms{
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+.anne-social .anne-fb{
+    background-position: -171px 100px;
+}
+.anne-social .anne-tw{
+    background-position: -70px 100px;
+}
+.anne-social .anne-in{
+    background-position: -120px 100px;
+}
+.anne-social .anne-sms{
+    background-position: -15px 100px;
+}
+.anne-social .anne-fb:hover , .anne-social .anne-tw:hover , .anne-social .anne-in .anne-social .anne-sms:hover {
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+}
+.anne-social .anne-fb:hover{
+    background-position: -171px 50px;
+}
+.anne-social .anne-tw:hover{
+    background-position: -69px 50px;
+}
+.anne-social .anne-in:hover{
+    background-position: -120px 50px;
+}
+.anne-social .anne-sms:hover{
+    background-position: -15px 50px;
+}
+/* * * * * * * * * * * * ANNE HATHAWAY * * * * * * * */
+
+
+
+
+/* * * * * * * * * * * * KATE SECTION * * * * * * * */
+
+
+.kate-section{
+    margin-left: 58px;
+}
+.kate-text{
+    margin-top: 29px;
+}
+.kate-text h3{
+    margin-top: 1px;
+    margin-bottom: 0;
+    padding-left: 32px;
+}
+.kate-text h4{
+    margin-top: 0;
+    padding-left: 45px;
+}
+
+.kate-text p{
+    margin-top: -3px;
+    text-align: center;
+    width: 205px;
+    margin-left: 2px;
+}
+.kate-social {
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 41px;
+}
+.kate-social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.kate-social .kate-tw , .kate-social .kate-in , .kate-social .kate-sms{
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+}
+.kate-social .kate-tw{
+    background-position: -70px 100px;
+}
+
+.kate-social .kate-in {
+    background-position: -120px 99px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.kate-social .kate-sms{
+    background-position: -15px 100px;
+}
+.kate-social .kate-tw:hover , .kate-social .kate-in .kate-social .kate-sms:hover {
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+}
+.kate-social .kate-tw:hover{
+    background-position: -69px 50px;
+}
+.kate-social .kate-in:hover{
+    background-position: -120px 50px;
+}
+.kate-social .kate-sms:hover{
+    background-position: -15px 50px;
+}
+
+/* * * * * * * * * * * * KATE SECTION * * * * * * * */
+
+
+
+
+/* * * * * * * * * * * * OLIVIA SECTION * * * * * * * */
+.olivia-section {
+    margin-left: 58px;
+}
+
+.olivia-text {
+    margin-top: 29px;
+}
+.olivia-section h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 27px;
+}
+
+.olivia-section h4{
+    margin-top: 0px;
+    margin-left: 53px;
+    margin-bottom: 18px;
+}
+
+.olivia-section p{
+    width: 205px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.olivia-social {
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.olivia-social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.olivia-social .olivia-fb , .olivia-social .olivia-tw , .olivia-social .olivia-in , .olivia-social .olivia-sms{
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+
+}
+.olivia-social .olivia-fb{
+    background-position: -171px 99px;
+    margin-right: 9px;
+}
+.olivia-social .olivia-tw{
+    background-position: -70px 100px;
+    margin-right: 8px;
+}
+.olivia-social .olivia-in{
+    background-position: -120px 99px;
+    margin-right: 8px;
+}
+.olivia-social .olivia-sms{
+    background-position: -15px 100px;
+}
+.olivia-social .olivia-fb:hover , .olivia-social .olivia-tw:hover , .olivia-social .olivia-in , .olivia-social .olivia-sms:hover {
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+}
+.olivia-social .olivia-fb:hover{
+    background-position: -171px 50px;
+}
+.olivia-social .olivia-tw:hover{
+    background-position: -69px 50px;
+}
+.olivia-social .olivia-in:hover{
+    background-position: -120px 50px;
+}
+.olivia-social .olivia-sms:hover{
+    background-position: -15px 50px;
+}
+
+/* * * * * * * * * * * * OLIVIA SECTION * * * * * * * */
+
+
+
+
+
+/* * * * * * * * * * * * ASHLEY SECTION * * * * * * * */
+.ashley-section {
+    float: right;
+    display: inline-block;
+    width: 222px;
+    height: 500px;
+    margin-right: 118px;
+}
+.ashley-section .ashley-text{
+    margin-top: 29px;
+    margin-left: 1px;
+
+}
+.ashley-section .ashley-text h3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 17px;
+}
+
+.ashley-section .ashley-text h4{
+    margin-top: 1px;
+    margin-left: 48px;
+}
+.ashley-section .ashley-text p{
+    width: 205px;
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 6px;
+}
+
+.ashley-social {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 9px;
+}
+.ashley-social ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ashley-social .ashley-fb , .ashley-social .ashley-tw , .ashley-social .ashley-sms{
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+
+}
+.ashley-social .ashley-fb{
+    background-position: -171px 99px;
+    margin-right: 9px;
+}
+.ashley-social .ashley-tw{
+    background-position: -70px 100px;
+    margin-right: 8px;
+}
+.ashley-social .ashley-sms{
+    background-position: -15px 100px;
+}
+.ashley-social .ashley-fb:hover , .ashley-social .ashley-tw:hover , .ashley-social .ashley-sms:hover {
+    display: inline-block;
+    background-image: url(img/spline.png);
+    width: 35px;
+    height: 35px;
+}
+.ashley-social .ashley-fb:hover{
+    background-position: -171px 50px;
+}
+.ashley-social .ashley-tw:hover{
+    background-position: -69px 50px;
+
+}
+.ashley-social .ashley-sms:hover{
+    background-position: -15px 50px;
+}
