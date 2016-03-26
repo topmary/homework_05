@@ -86,8 +86,8 @@ body .header .wrapper-header h2 {
 .text-in-aquamarine h2{
     display: inline-block;
     font-size: 39px;
-    margin-left: 283px;
-    letter-spacing: 4px;
+    margin-left: 277px;
+    letter-spacing: 4.5px;
     margin-bottom: 0;
 }
 .images-with-text-in-aquamarine.clearfix {
@@ -615,4 +615,18 @@ body .header .wrapper-header h2 {
 }
 .ashley-social .ashley-sms:hover{
     background-position: -15px 50px;
+}
+
+.block-white {
+    height: 654px;
+    background-color: thistle;
+    padding-top:1px;
+}
+
+.pumpkin {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+    cx:200;
+
 }
