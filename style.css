@@ -27,9 +27,6 @@ body .header .wrapper-header .logo img {
     height: 70px;
 }
 
-
-
-
 body .header .wrapper-header .list {
     float:right;
     margin-top: 25px;
@@ -45,13 +42,10 @@ body .header .wrapper-header .list ul li{
     padding: 4px 16px 3px 16px;
 }
 
-
 body .header .wrapper-header .list ul li:hover {
     background-color: #643A79;
     border-radius: 3px;
-
 }
-
 
 body .header .wrapper-header .list ul li a{
     text-decoration: none;
@@ -60,7 +54,6 @@ body .header .wrapper-header .list ul li a{
 body .header .wrapper-header .list ul li a:hover {
     color: #0AF5CC;
 }
-
 
 a.button {
     font-weight: 600;
@@ -88,15 +81,99 @@ body .header .wrapper-header h2 {
     letter-spacing: 0.8px;
     width: 78%;
     margin: 104px 0 74px 10.95%;
-
 }
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * T E S T * * * * * * * * */
+.servises{
+    padding: 0 0 0 102px;
+    margin-top: 36px;
+}
+
+.img-flag {
+    background: url(img/spline-1.png);
+    background-position: 0 -10px;
+    width: 167px;
+    height:160px;
+    padding-right: 98px;
+}
+
+.img-pencil{
+    background: url(img/spline-1.png);
+    background-position: 0px -347px;
+    width: 170px;
+    height:142px;
+    padding-right: 65px;
+}
+
+.img-cogwheel{
+    background-image: url(img/spline-1.png);
+    background-position: 0px 280px;
+    width: 170px;
+    height:142px;
+    padding-right: 81px;
+}
+.img-rocket {
+    background: url(img/spline-1.png);
+    background-position: 27px -169px;
+    width: 154px;
+    height:142px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * T E S T * * * * * * * * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
 
 .main .block-aquamarine {
     background-color:#17C2A4;
     padding-top: 1px;
-    height: 745px;
+    height: 699px;
 }
 .main .block-aquamarine .wrapper-aquamarine {
     width: 1150px;
@@ -110,32 +187,31 @@ body .header .wrapper-header h2 {
 }
 .text-in-aquamarine h2{
     display: inline-block;
-    font-size: 39px;
-    margin-left: 277px;
+    font-size: 36px;
+    margin: 26px 0 0 248px;
     letter-spacing: 4.5px;
-    margin-bottom: 0;
 }
 .images-with-text-in-aquamarine.clearfix {
-    height: 600px !important;
-    margin-left: 103px;
+    height: 455px !important;
+    margin-left: 87px;
 }
 .line {
-    width: 87px;
-    height: 4px;
+    width: 81px;
+    height: 3px;
     border: none;
 }
 
 .line1 {
-    margin-left: 472px;
+    margin-left: 430px;
     background: #14A58C;
 }
 .text-in-aquamarine p {
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     text-align: center;
-    padding-left: 216px;
+    padding-left: 190px;
     margin-top: 8px;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.76px;
 }
 .clearfix {
     display: table;
@@ -146,6 +222,8 @@ body .header .wrapper-header h2 {
     width: 220px;
     height: 390px;
 }
+
+
 
 /* * * * * * * * * * * * * * * * * * * * * * FLAG * * * */
 .flag{
@@ -163,10 +241,10 @@ body .header .wrapper-header h2 {
 .text-flag h3 {
     display: inline-block;
     margin-top: 6px;
-    font-size: 25px;
-    padding-top: 38px;
+    font-size: 23px;
+    padding-top: 26px;
     width: 193px;
-    margin-left: 37px;
+    margin-left: 40px;
     margin-bottom: 0;
 }
 .text-flag p {
@@ -180,11 +258,11 @@ body .header .wrapper-header h2 {
 /* * * * * * * * * * * * * * * * * * * *  *ROCKET * * * */
 .rocket{
     float: right;
-    margin-left: 48px;
+    margin-left: 25px;
     margin-top: 53px;
 }
 .image-rocket {
-    background-image: url(img/spline.png);
+    background: url(img/spline.png);
     background-position: 3px -160px;
     width: 154px;
     height:142px;
@@ -212,7 +290,7 @@ body .header .wrapper-header h2 {
 /* * * * * * * * * * * * * * * * * * * COGWHEEL * * * */
 .cogwheel {
     float: right;
-    margin-left: 73px;
+    margin-left: 59px;
     margin-top: 49px;
 }
 .image-cogwheel{
@@ -244,7 +322,7 @@ body .header .wrapper-header h2 {
 /* * * * * * * * * * * * * * * * * * * DESIGN * * * */
 .design{
     float: right;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 50px;
 }
 .image-design {
@@ -272,6 +350,28 @@ body .header .wrapper-header h2 {
 }
 /* * * * * * DESIGN * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK lightblue* * * * * * * * */
