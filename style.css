@@ -8,23 +8,32 @@ body{
 
 body .header {
     background-color: #87509C;
-    height: 596px;
+    /*background-color: thistle;*/
+    height: 560px;
 }
 body .header .wrapper-header{
-    padding-top: 32px;
-    width: 1142px;
+    padding-top: 35px;
+    width: 88%;;
     height: 300px;
     margin: 0 auto;
 }
 body .header .wrapper-header .logo {
     display: inline-block;
-    margin-left: 89px;
-    margin-top: 4px;
+    margin-left: 8.3%;
 }
+
+body .header .wrapper-header .logo img {
+    width: 159px;
+    height: 70px;
+}
+
+
+
+
 body .header .wrapper-header .list {
     float:right;
-    margin-top: 31px;
-    margin-right: 2px;
+    margin-top: 25px;
+    margin-right: 7.2%;
 }
 body .header .wrapper-header .list ul{
     margin: 0;
@@ -32,22 +41,38 @@ body .header .wrapper-header .list ul{
 
 body .header .wrapper-header .list ul li{
     display: inline;
-    margin-left: 41px;}
+    margin-left: 3px;
+    padding: 4px 16px 3px 16px;
+}
+
+
+body .header .wrapper-header .list ul li:hover {
+    background-color: #643A79;
+    border-radius: 3px;
+
+}
+
 
 body .header .wrapper-header .list ul li a{
     text-decoration: none;
     color:white;}
 
+body .header .wrapper-header .list ul li a:hover {
+    color: #0AF5CC;
+}
+
+
 a.button {
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 17px;
     color: white;
     text-decoration: none;
-    padding: 22px 90px 23px 92px;
+    padding: 24px 72px 14px 82px;
     border-radius: 3px;
     background: rgb(235, 125, 75);
     box-shadow: 0 -3px rgb(200, 106, 64) inset;
     transition: 0.2s;
-    margin-left: 470px;
+    margin-left: 38.5%;
 }
 a.button:hover { background: rgb(235, 146, 86); }
 a.button:active {
@@ -57,12 +82,12 @@ a.button:active {
 
 body .header .wrapper-header h2 {
     text-align: center;
-    font-size: 41px;
+    font-size: 38px;
     color: white;
-    margin-top: 112px;
-    margin-left: 61px;
-    line-height: 121%;
-    margin-bottom: 77px;
+    line-height: 123%;
+    letter-spacing: 0.8px;
+    width: 78%;
+    margin: 104px 0 74px 10.95%;
 
 }
 
@@ -96,10 +121,13 @@ body .header .wrapper-header h2 {
 }
 .line {
     width: 87px;
-    height: 3px;
+    height: 4px;
+    border: none;
+}
+
+.line1 {
     margin-left: 472px;
     background: #14A58C;
-    border: none;
 }
 .text-in-aquamarine p {
     font-size: 18px;
@@ -271,11 +299,8 @@ body .header .wrapper-header h2 {
     color: #3C4761;
 }
 .line2{
-    width: 87px;
-    height: 4px;
-    border:none;
-    background: #C8D9E5;
     margin-left: 380px;
+    background: #C8D9E5;
 }
 .main .block-lightblue .wrapper-lightblue .text-in-lightblue p{
     font-size: 18px;
@@ -284,18 +309,23 @@ body .header .wrapper-header h2 {
     color: #3C4761;
 }
 .beautiful-team {
-    width: 1180px;
+    width: 100%;
     padding-top: 58px;
-    margin-left: 103px;
+    padding-left:93px;
 }
 
 
 /* * * * * * * * * * * * OБЩЕЕ * * * * * * * */
+.anne-section {
+    padding-left: 11px;
+}
+
 .anne-section , .kate-section , .olivia-section {
     float: left;
     display: inline-block;
     width: 222px;
     height: 500px;
+
 }
 .anne-section .anne-photo , .kate-section .kate-photo , .olivia-section .olivia-photo , .ashley-section .ashley-photo{
     width: 202px;
@@ -544,11 +574,11 @@ body .header .wrapper-header h2 {
 
 /* * * * * * * * * * * * ASHLEY SECTION * * * * * * * */
 .ashley-section {
-    float: right;
+    float: left;
     display: inline-block;
-    width: 222px;
+    width: 212px;
     height: 500px;
-    margin-right: 118px;
+    padding-left: 58px;
 }
 .ashley-section .ashley-text{
     margin-top: 29px;
@@ -623,10 +653,77 @@ body .header .wrapper-header h2 {
     padding-top:1px;
 }
 
+
+/* * * * * * * * * * * * ASHLEY SECTION * * * * * * * */
+
+
+
+/****************************/
+
 .pumpkin {
     fill: yellow;
     stroke: orange;
     stroke-width: 5;
-    cx:200;
-
 }
+.title {
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.title3 {
+    margin-left: 558px;
+    margin-top: 100px;
+    margin-bottom: -2px;
+}
+.line3{
+    margin-left: 678px;
+    background: #DFE8ED;
+}
+
+.text3{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 618px;
+    padding-left: 91px;
+    letter-spacing: 0.49px;
+    padding-top: 9px;
+}
+
+svg {
+    position: relative;
+    top: 38px;
+    left: 200px;
+}
+.pie1 {
+    position: absolute;
+    fill: transparent;
+    stroke: #30BAE7;
+    stroke-width: 13;
+}
+.pie2 {
+    position: absolute;
+    fill: transparent;
+    stroke: #DFE8ED;
+    stroke-width: 13;
+    stroke-dasharray: 44 500;
+    transform: rotate(236deg);
+    transform-origin: 50% 50%;
+}
+
+.dia {
+    position: relative;
+    display: inline-block;
+}
+
+.diagram {
+    padding-left: 200px;
+    padding-top: 61px;
+}
+
+.blue-diagram {
+    position: absolute;
+    left: 89px;
+    top: 85px;
+}
+
