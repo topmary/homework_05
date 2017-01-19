@@ -1,9 +1,12 @@
 body{
     font-family: 'Titillium Web', sans-serif;
-    margin:0;
-    padding:0;
     width:100%;
     height: 100%;
+}
+
+.otstup{
+    margin:0;
+    padding:0;
 }
 
 body .header {
@@ -32,9 +35,6 @@ body .header .wrapper-header .list {
     margin-top: 25px;
     margin-right: 7.2%;
 }
-body .header .wrapper-header .list ul{
-    margin: 0;
-    padding: 0;}
 
 body .header .wrapper-header .list ul li{
     display: inline;
@@ -82,7 +82,7 @@ body .header .wrapper-header h2 {
     width: 78%;
     margin: 104px 0 74px 10.95%;
 }
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * T E S T * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
 .servises{
     padding: 0 0 0 102px;
     margin-top: 36px;
@@ -118,237 +118,47 @@ body .header .wrapper-header h2 {
     height:142px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * T E S T * * * * * * * * */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
-
-.main .block-aquamarine {
-    background-color:#17C2A4;
-    padding-top: 1px;
-    height: 699px;
+.servis-text {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
 }
-.main .block-aquamarine .wrapper-aquamarine {
-    width: 1150px;
-    margin: 0 auto;
-    padding-top: 70px;
-    color: white;
-}
-.text-in-aquamarine {
-    margin-left: 104px;
-    margin-top: -1px;
-}
-.text-in-aquamarine h2{
+
+.in-servis-text1 {
     display: inline-block;
-    font-size: 36px;
-    margin: 26px 0 0 248px;
-    letter-spacing: 4.5px;
-}
-.images-with-text-in-aquamarine.clearfix {
-    height: 455px !important;
-    margin-left: 87px;
-}
-.line {
-    width: 81px;
-    height: 3px;
-    border: none;
-}
-
-.line1 {
-    margin-left: 430px;
-    background: #14A58C;
-}
-.text-in-aquamarine p {
-    font-size: 16px;
-    display: inline-block;
-    text-align: center;
-    padding-left: 190px;
-    margin-top: 8px;
-    letter-spacing: 0.76px;
-}
-.clearfix {
-    display: table;
-    content: "";
-    clear: both;
-}
-.size-img{
-    width: 220px;
-    height: 390px;
-}
-
-
-
-/* * * * * * * * * * * * * * * * * * * * * * FLAG * * * */
-.flag{
-    display: inline-block;
-    margin-top: 33px;
-}
-
-.image-flag {
-    background-image: url(img/spline.png);
-    width: 170px;
-    height:142px;
-    margin-left: 28px;
     margin-top: 19px;
+    margin-bottom: 5px;
 }
-.text-flag h3 {
-    display: inline-block;
-    margin-top: 6px;
-    font-size: 23px;
-    padding-top: 26px;
-    width: 193px;
-    margin-left: 40px;
-    margin-bottom: 0;
-}
-.text-flag p {
-    margin-top: 12px !important;
-    text-align: center !important;
-    display: inline-block !important;
-    width: 203px;
-}
-/* * * * * * FLAG * * * */
 
-/* * * * * * * * * * * * * * * * * * * *  *ROCKET * * * */
-.rocket{
-    float: right;
-    margin-left: 25px;
-    margin-top: 53px;
+.in-servis-text1 td {
+    padding-left: 121px;
 }
-.image-rocket {
-    background: url(img/spline.png);
-    background-position: 3px -160px;
-    width: 154px;
-    height:142px;
-    margin-left: 58px;
-}
-.text-rocket {
-    margin-top: 42px;
-}
-.text-rocket h3{
-    display: inline-block;
-    font-size: 25px;
-    width: 193px;
-    margin-top: 2px;
-    margin-bottom: 3px;
-    margin-left: 31px;
-}
-.text-rocket p{
-    width: 203px;
-    text-align: center !important;
-    margin-top: 8px;
-    margin-left: 25px;
-}
-/* * * * * * ROCKET * * * */
 
-/* * * * * * * * * * * * * * * * * * * COGWHEEL * * * */
-.cogwheel {
-    float: right;
-    margin-left: 59px;
-    margin-top: 49px;
+.in-servis-text1 td:nth-child(2) {
+    padding-left: 164px;
 }
-.image-cogwheel{
-    background-image: url(img/spline.png);
-    background-position: -149px -159px;
-    width: 170px;
-    height:142px;
-    margin-left: 25px;
-}
-.text-cogwheel{
-    margin-top: 46px;
-}
-.text-cogwheel h3 {
-    display: inline-block;
-    font-size: 25px;
-    width: 193px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 28px;
-}
-.text-cogwheel p {
-    width: 203px;
-    text-align: center !important;
-    margin-left: 10px;
-    margin-top: 11px;
-}
-/* * * * * * COGWHEEL * * * */
 
-/* * * * * * * * * * * * * * * * * * * DESIGN * * * */
-.design{
-    float: right;
-    margin-left: 10px;
-    margin-top: 50px;
+.in-servis-text1 td:nth-child(3) {
+    padding-left: 141px;
 }
-.image-design {
-    background-image: url(img/spline.png);
-    background-position: -136px 0;
-    width: 170px;
-    height:142px;
-    margin-left: 53px;
+
+.in-servis-text1 td:nth-child(4) {
+    padding-left: 91px;
 }
-.text-design {
-    margin-top: 43px;
-    margin-left: 32px;
+
+.servis-text-list {
+    padding-left: 86px;
 }
-.text-design h3 {
+
+.servis-text-list ul li {
     display: inline-block;
-    font-size: 25px;
-    margin-bottom: 3px;
-    margin-top: 3px;
-    margin-left: 52px;
+    list-style-type: none;
+    width: 192px;
+    text-align: center;
+    margin-right: 67px;
 }
-.text-design p{
-    width: 203px;
-    text-align: center !important;
-    margin-top: 9px;
-}
-/* * * * * * DESIGN * * * */
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
 
 
@@ -413,7 +223,6 @@ body .header .wrapper-header h2 {
     padding-top: 58px;
     padding-left:93px;
 }
-
 
 /* * * * * * * * * * * * OБЩЕЕ * * * * * * * */
 .anne-section {
