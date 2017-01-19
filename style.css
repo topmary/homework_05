@@ -1,12 +1,12 @@
-body{
+body {
     font-family: 'Titillium Web', sans-serif;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
-.otstup{
-    margin:0;
-    padding:0;
+.otstup {
+    margin: 0;
+    padding: 0;
 }
 
 body .header {
@@ -14,12 +14,14 @@ body .header {
     /*background-color: thistle;*/
     height: 560px;
 }
-body .header .wrapper-header{
+
+body .header .wrapper-header {
     padding-top: 35px;
     width: 88%;;
     height: 300px;
     margin: 0 auto;
 }
+
 body .header .wrapper-header .logo {
     display: inline-block;
     margin-left: 8.3%;
@@ -31,12 +33,12 @@ body .header .wrapper-header .logo img {
 }
 
 body .header .wrapper-header .list {
-    float:right;
+    float: right;
     margin-top: 25px;
     margin-right: 7.2%;
 }
 
-body .header .wrapper-header .list ul li{
+body .header .wrapper-header .list ul li {
     display: inline;
     margin-left: 3px;
     padding: 4px 16px 3px 16px;
@@ -47,9 +49,10 @@ body .header .wrapper-header .list ul li:hover {
     border-radius: 3px;
 }
 
-body .header .wrapper-header .list ul li a{
+body .header .wrapper-header .list ul li a {
     text-decoration: none;
-    color:white;}
+    color: white;
+}
 
 body .header .wrapper-header .list ul li a:hover {
     color: #0AF5CC;
@@ -67,7 +70,11 @@ a.button {
     transition: 0.2s;
     margin-left: 38.5%;
 }
-a.button:hover { background: rgb(235, 146, 86); }
+
+a.button:hover {
+    background: rgb(235, 146, 86);
+}
+
 a.button:active {
     background: rgb(200, 106, 64);
     box-shadow: 0 3px rgb(200, 106, 64) inset;
@@ -82,8 +89,71 @@ body .header .wrapper-header h2 {
     width: 78%;
     margin: 104px 0 74px 10.95%;
 }
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK aquamarine* * * * * * * * */
-.servises{
+
+.main .block-aquamarine {
+    background-color: #17C2A4;
+    padding-top: 1px;
+    height: 699px;
+}
+
+.main .block-aquamarine .wrapper-aquamarine {
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 70px;
+    color: white;
+}
+
+.text-in-aquamarine {
+    margin-left: 104px;
+    margin-top: -1px;
+}
+
+.text-in-aquamarine h2 {
+    display: inline-block;
+    font-size: 36px;
+    margin: 26px 0 0 248px;
+    letter-spacing: 4.5px;
+}
+
+.images-with-text-in-aquamarine.clearfix {
+    height: 455px !important;
+    margin-left: 87px;
+}
+
+.line {
+    width: 81px;
+    height: 3px;
+    border: none;
+}
+
+.line1 {
+    margin-left: 430px;
+    background: #14A58C;
+}
+
+.text-in-aquamarine p {
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 190px;
+    margin-top: 8px;
+    letter-spacing: 0.76px;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.size-img {
+    width: 220px;
+    height: 390px;
+}
+
+.servises {
     padding: 0 0 0 102px;
     margin-top: 36px;
 }
@@ -92,30 +162,31 @@ body .header .wrapper-header h2 {
     background: url(img/spline-1.png);
     background-position: 0 -10px;
     width: 167px;
-    height:160px;
+    height: 160px;
     padding-right: 98px;
 }
 
-.img-pencil{
+.img-pencil {
     background: url(img/spline-1.png);
     background-position: 0px -347px;
     width: 170px;
-    height:142px;
+    height: 142px;
     padding-right: 65px;
 }
 
-.img-cogwheel{
+.img-cogwheel {
     background-image: url(img/spline-1.png);
     background-position: 0px 280px;
     width: 170px;
-    height:142px;
+    height: 142px;
     padding-right: 81px;
 }
+
 .img-rocket {
     background: url(img/spline-1.png);
     background-position: 27px -169px;
     width: 154px;
-    height:142px;
+    height: 142px;
 }
 
 .servis-text {
@@ -184,19 +255,38 @@ body .header .wrapper-header h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BLOCK lightblue* * * * * * * * */
 .main .block-lightblue {
     background-color: #E7F1F8;
     height: 913px;
-    padding-top: 1px;                     /* W h y ???? */
+    padding-top: 1px; /* W h y ???? */
 }
+
 .main .block-lightblue .wrapper-lightblue {
     width: 1160px;
     margin: 0 auto;
     margin-top: 102px;
 }
 
-.main .block-lightblue .wrapper-lightblue .text-in-lightblue{
+.main .block-lightblue .wrapper-lightblue .text-in-lightblue {
     width: 754px;
     margin: 0 auto;
 }
@@ -208,20 +298,23 @@ body .header .wrapper-header h2 {
     margin-bottom: -1px;
     color: #3C4761;
 }
-.line2{
+
+.line2 {
     margin-left: 380px;
     background: #C8D9E5;
 }
-.main .block-lightblue .wrapper-lightblue .text-in-lightblue p{
+
+.main .block-lightblue .wrapper-lightblue .text-in-lightblue p {
     font-size: 18px;
     margin-left: 103px;
     letter-spacing: 0.3px;
     color: #3C4761;
 }
+
 .beautiful-team {
     width: 100%;
     padding-top: 58px;
-    padding-left:93px;
+    padding-left: 93px;
 }
 
 /* * * * * * * * * * * * OБЩЕЕ * * * * * * * */
@@ -229,27 +322,30 @@ body .header .wrapper-header h2 {
     padding-left: 11px;
 }
 
-.anne-section , .kate-section , .olivia-section {
+.anne-section, .kate-section, .olivia-section {
     float: left;
     display: inline-block;
     width: 222px;
     height: 500px;
 
 }
-.anne-section .anne-photo , .kate-section .kate-photo , .olivia-section .olivia-photo , .ashley-section .ashley-photo{
+
+.anne-section .anne-photo, .kate-section .kate-photo, .olivia-section .olivia-photo, .ashley-section .ashley-photo {
     width: 202px;
     height: 202px;
 }
-.anne-section .anne-photo img , .kate-section .kate-photo img , .olivia-section .olivia-photo img , .ashley-section .ashley-photo img{
+
+.anne-section .anne-photo img, .kate-section .kate-photo img, .olivia-section .olivia-photo img, .ashley-section .ashley-photo img {
     border-radius: 50%;
     overflow: hidden;
 }
 
-.anne-text h3 , .kate-text h3 , .olivia-text h3 , .ashley-text h3{
+.anne-text h3, .kate-text h3, .olivia-text h3, .ashley-text h3 {
     font-size: 25px;
     color: #3C4761;
 }
-.anne-text h4 , .kate-text h4 , .olivia-text h4 , .ashley-text h4{
+
+.anne-text h4, .kate-text h4, .olivia-text h4, .ashley-text h4 {
     color: #30BAE7;
     font-weight: normal;
 }
@@ -267,104 +363,120 @@ body .header .wrapper-header h2 {
     margin-top: -1px;
     margin-left: 28px;
 }
+
 .anne-text p {
     margin-top: -3px;
     text-align: center;
     width: 200px;
 }
+
 .anne-social {
     display: inline-block;
     margin-top: 11px;
     margin-left: 19px;
 }
-.anne-social ul{
+
+.anne-social ul {
     margin: 0;
     padding: 0;
 }
-.anne-social .anne-fb , .anne-social .anne-tw , .anne-social .anne-in , .anne-social .anne-sms{
+
+.anne-social .anne-fb, .anne-social .anne-tw, .anne-social .anne-in, .anne-social .anne-sms {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
     margin-right: 8px;
 }
-.anne-social .anne-fb{
+
+.anne-social .anne-fb {
     background-position: -171px 100px;
 }
-.anne-social .anne-tw{
+
+.anne-social .anne-tw {
     background-position: -70px 100px;
 }
-.anne-social .anne-in{
+
+.anne-social .anne-in {
     background-position: -120px 100px;
 }
-.anne-social .anne-sms{
+
+.anne-social .anne-sms {
     background-position: -15px 100px;
 }
-.anne-social .anne-fb:hover , .anne-social .anne-tw:hover , .anne-social .anne-in .anne-social .anne-sms:hover {
+
+.anne-social .anne-fb:hover, .anne-social .anne-tw:hover, .anne-social .anne-in .anne-social .anne-sms:hover {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 }
-.anne-social .anne-fb:hover{
+
+.anne-social .anne-fb:hover {
     background-position: -171px 50px;
 }
-.anne-social .anne-tw:hover{
+
+.anne-social .anne-tw:hover {
     background-position: -69px 50px;
 }
-.anne-social .anne-in:hover{
+
+.anne-social .anne-in:hover {
     background-position: -120px 50px;
 }
-.anne-social .anne-sms:hover{
+
+.anne-social .anne-sms:hover {
     background-position: -15px 50px;
 }
+
 /* * * * * * * * * * * * ANNE HATHAWAY * * * * * * * */
-
-
-
 
 /* * * * * * * * * * * * KATE SECTION * * * * * * * */
 
-
-.kate-section{
+.kate-section {
     margin-left: 58px;
 }
-.kate-text{
+
+.kate-text {
     margin-top: 29px;
 }
-.kate-text h3{
+
+.kate-text h3 {
     margin-top: 1px;
     margin-bottom: 0;
     padding-left: 32px;
 }
-.kate-text h4{
+
+.kate-text h4 {
     margin-top: 0;
     padding-left: 45px;
 }
 
-.kate-text p{
+.kate-text p {
     margin-top: -3px;
     text-align: center;
     width: 205px;
     margin-left: 2px;
 }
+
 .kate-social {
     display: inline-block;
     margin-top: 11px;
     margin-left: 41px;
 }
+
 .kate-social ul {
     margin: 0;
     padding: 0;
 }
 
-.kate-social .kate-tw , .kate-social .kate-in , .kate-social .kate-sms{
+.kate-social .kate-tw, .kate-social .kate-in, .kate-social .kate-sms {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 }
-.kate-social .kate-tw{
+
+.kate-social .kate-tw {
     background-position: -70px 100px;
 }
 
@@ -374,29 +486,30 @@ body .header .wrapper-header h2 {
     margin-right: 8px;
 }
 
-.kate-social .kate-sms{
+.kate-social .kate-sms {
     background-position: -15px 100px;
 }
-.kate-social .kate-tw:hover , .kate-social .kate-in .kate-social .kate-sms:hover {
+
+.kate-social .kate-tw:hover, .kate-social .kate-in .kate-social .kate-sms:hover {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 }
-.kate-social .kate-tw:hover{
+
+.kate-social .kate-tw:hover {
     background-position: -69px 50px;
 }
-.kate-social .kate-in:hover{
+
+.kate-social .kate-in:hover {
     background-position: -120px 50px;
 }
-.kate-social .kate-sms:hover{
+
+.kate-social .kate-sms:hover {
     background-position: -15px 50px;
 }
 
 /* * * * * * * * * * * * KATE SECTION * * * * * * * */
-
-
-
 
 /* * * * * * * * * * * * OLIVIA SECTION * * * * * * * */
 .olivia-section {
@@ -406,19 +519,20 @@ body .header .wrapper-header h2 {
 .olivia-text {
     margin-top: 29px;
 }
+
 .olivia-section h3 {
     margin-top: 1px;
     margin-bottom: 1px;
     padding-left: 27px;
 }
 
-.olivia-section h4{
+.olivia-section h4 {
     margin-top: 0px;
     margin-left: 53px;
     margin-bottom: 18px;
 }
 
-.olivia-section p{
+.olivia-section p {
     width: 205px;
     text-align: center;
     margin-left: 5px;
@@ -429,57 +543,63 @@ body .header .wrapper-header h2 {
     margin-top: 11px;
     margin-left: 19px;
 }
+
 .olivia-social ul {
     margin: 0;
     padding: 0;
 }
 
-.olivia-social .olivia-fb , .olivia-social .olivia-tw , .olivia-social .olivia-in , .olivia-social .olivia-sms{
+.olivia-social .olivia-fb, .olivia-social .olivia-tw, .olivia-social .olivia-in, .olivia-social .olivia-sms {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 
 }
-.olivia-social .olivia-fb{
+
+.olivia-social .olivia-fb {
     background-position: -171px 99px;
     margin-right: 9px;
 }
-.olivia-social .olivia-tw{
+
+.olivia-social .olivia-tw {
     background-position: -70px 100px;
     margin-right: 8px;
 }
-.olivia-social .olivia-in{
+
+.olivia-social .olivia-in {
     background-position: -120px 99px;
     margin-right: 8px;
 }
-.olivia-social .olivia-sms{
+
+.olivia-social .olivia-sms {
     background-position: -15px 100px;
 }
-.olivia-social .olivia-fb:hover , .olivia-social .olivia-tw:hover , .olivia-social .olivia-in , .olivia-social .olivia-sms:hover {
+
+.olivia-social .olivia-fb:hover, .olivia-social .olivia-tw:hover, .olivia-social .olivia-in, .olivia-social .olivia-sms:hover {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 }
-.olivia-social .olivia-fb:hover{
+
+.olivia-social .olivia-fb:hover {
     background-position: -171px 50px;
 }
-.olivia-social .olivia-tw:hover{
+
+.olivia-social .olivia-tw:hover {
     background-position: -69px 50px;
 }
-.olivia-social .olivia-in:hover{
+
+.olivia-social .olivia-in:hover {
     background-position: -120px 50px;
 }
-.olivia-social .olivia-sms:hover{
+
+.olivia-social .olivia-sms:hover {
     background-position: -15px 50px;
 }
 
 /* * * * * * * * * * * * OLIVIA SECTION * * * * * * * */
-
-
-
-
 
 /* * * * * * * * * * * * ASHLEY SECTION * * * * * * * */
 .ashley-section {
@@ -489,22 +609,25 @@ body .header .wrapper-header h2 {
     height: 500px;
     padding-left: 58px;
 }
-.ashley-section .ashley-text{
+
+.ashley-section .ashley-text {
     margin-top: 29px;
     margin-left: 1px;
 
 }
-.ashley-section .ashley-text h3{
+
+.ashley-section .ashley-text h3 {
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: 17px;
 }
 
-.ashley-section .ashley-text h4{
+.ashley-section .ashley-text h4 {
     margin-top: 1px;
     margin-left: 48px;
 }
-.ashley-section .ashley-text p{
+
+.ashley-section .ashley-text p {
     width: 205px;
     text-align: center;
     margin-top: -2px;
@@ -516,56 +639,61 @@ body .header .wrapper-header h2 {
     margin-left: 40px;
     margin-top: 9px;
 }
+
 .ashley-social ul {
     margin: 0;
     padding: 0;
 }
 
-.ashley-social .ashley-fb , .ashley-social .ashley-tw , .ashley-social .ashley-sms{
+.ashley-social .ashley-fb, .ashley-social .ashley-tw, .ashley-social .ashley-sms {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 
 }
-.ashley-social .ashley-fb{
+
+.ashley-social .ashley-fb {
     background-position: -171px 99px;
     margin-right: 9px;
 }
-.ashley-social .ashley-tw{
+
+.ashley-social .ashley-tw {
     background-position: -70px 100px;
     margin-right: 8px;
 }
-.ashley-social .ashley-sms{
+
+.ashley-social .ashley-sms {
     background-position: -15px 100px;
 }
-.ashley-social .ashley-fb:hover , .ashley-social .ashley-tw:hover , .ashley-social .ashley-sms:hover {
+
+.ashley-social .ashley-fb:hover, .ashley-social .ashley-tw:hover, .ashley-social .ashley-sms:hover {
     display: inline-block;
     background-image: url(img/spline.png);
     width: 35px;
     height: 35px;
 }
-.ashley-social .ashley-fb:hover{
+
+.ashley-social .ashley-fb:hover {
     background-position: -171px 50px;
 }
-.ashley-social .ashley-tw:hover{
+
+.ashley-social .ashley-tw:hover {
     background-position: -69px 50px;
 
 }
-.ashley-social .ashley-sms:hover{
+
+.ashley-social .ashley-sms:hover {
     background-position: -15px 50px;
 }
 
 .block-white {
     height: 654px;
     background-color: thistle;
-    padding-top:1px;
+    padding-top: 1px;
 }
 
-
 /* * * * * * * * * * * * ASHLEY SECTION * * * * * * * */
-
-
 
 /****************************/
 
@@ -574,22 +702,25 @@ body .header .wrapper-header h2 {
     stroke: orange;
     stroke-width: 5;
 }
+
 .title {
     display: inline-block;
     font-size: 40px;
     letter-spacing: 4px;
 }
+
 .title3 {
     margin-left: 558px;
     margin-top: 100px;
     margin-bottom: -2px;
 }
-.line3{
+
+.line3 {
     margin-left: 678px;
     background: #DFE8ED;
 }
 
-.text3{
+.text3 {
     text-align: center;
     font-size: 18px;
     margin: 0 auto;
@@ -604,12 +735,14 @@ svg {
     top: 38px;
     left: 200px;
 }
+
 .pie1 {
     position: absolute;
     fill: transparent;
     stroke: #30BAE7;
     stroke-width: 13;
 }
+
 .pie2 {
     position: absolute;
     fill: transparent;
