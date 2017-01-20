@@ -267,7 +267,7 @@ body .header .wrapper-header h2 {
 }
 
 .table-in-lightblue {
-    padding-left: 88px;
+    padding-left: 87px;
     margin-top: 68px;
 }
 
@@ -280,10 +280,25 @@ body .header .wrapper-header h2 {
     width:67px;
 }
 
+.name-dev {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 20px;
+}
 
+.prof-dev {
+    color: #30BAE7;
+    text-align: center;
+}
 
-
-
+.text-dev {
+    text-align: center;
+    width: 188px;
+    padding-top: 9px;
+    line-height: 143%;
+}
 
 
 
